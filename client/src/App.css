@@ -37,21 +37,3 @@
     transform: translateY(0px);
   }
 }
-
-/* Begin custom styling... */
-.login-form-container {
-  margin-top: 5%;
-  border: 1px black solid;
-  border-radius: 10px;
-  width: 375px !important; /* Using !important to overwrite Bootstrap styling here. */
-  padding: 3%;
-}
-
-.jwt-display-container {
-  margin-top: 5%;
-  border: 1px rgba(82, 73, 73, 0.646) solid;
-  border-radius: 10px;
-  background-color: lightgray;
-  padding: 3%;
-  word-wrap: break-word;
-}
